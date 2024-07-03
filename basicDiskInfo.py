@@ -9,3 +9,6 @@ for partition in partitions:
 for partition in partitions:
     usage = psutil.disk_usage(partition.mountpoint)
     print(f"Disk {partition.device} - Total: {usage.total}, Used: {usage.used}, Free: {usage.free}, Percentage: {usage.percent}%")
+
+
+print('Hello WOrld')
